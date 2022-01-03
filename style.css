@@ -19,6 +19,9 @@ h1{
     padding-left: 5%;
     
 }
+.half2 p{
+    text-align: justify;
+}
 .half2 img{
     width: 80%;
 }
@@ -29,6 +32,7 @@ h1{
     border-radius: 5px;
     color: white;
     font-weight: 700px;
+    
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -65,6 +69,9 @@ h1{
     border-image: linear-gradient(rgb(0, 255, 170), red );
     border-image-slice: 1;
     
+}
+marquee{
+    color: rgb(175, 8, 8);
 }
 footer p{
     text-align: center;
