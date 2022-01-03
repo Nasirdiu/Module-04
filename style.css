@@ -10,13 +10,14 @@ h1{
 .wow1{
      color: orange;
 }
-section{
+.flexable{
     display: flex;
     margin-bottom: 100px;
 }
 .half2{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half2 img{
     width: 80%;
@@ -37,4 +38,34 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.expri{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(225, 226, 223);
+    border-radius: 5px;
+    
+}
+.Expe{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red );
+    border-image-slice: 1;
+    
+
+}
+#ex2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 170), red );
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
 }
